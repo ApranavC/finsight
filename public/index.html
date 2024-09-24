@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Statement Visualization</title>
+</head>
+<body>
+    <h1>Upload Your Bank Statement</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="bankStatement" required />
+        <button type="submit">Upload</button>
+    </form>
+    <h2>Visualizations</h2>
+    <!-- Embed Power BI report here -->
+    <div id="powerbi-report">
+        <!-- Power BI embed code -->
+    </div>
+</body>
+</html>
